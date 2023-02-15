@@ -22,9 +22,8 @@ def calcDistanceInKm(coord_A, coord_B):
     return distance
 
 def sortTuplesByFloat(arr):
-    """
-    Given an array of tuples with a string and a float value, sort the tuples based on the float value.
-    I use it to sort the distances array and stay with their names
-    """
+    # Sort the tuples based on the float value, the second element of each one.
+    # I use it to sort the distances array and stay with their names
+
     sorted_arr = sorted(arr, key=lambda x: x[1])
     return sorted_arr
