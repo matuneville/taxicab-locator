@@ -1,0 +1,45 @@
+{
+    "your_coordinates": {
+        "latitude": 40.74682811843807, 
+        "longitude": -73.98848619172874
+      },
+
+    "drivers": [
+      {
+        "name": "John Smith",
+        "latitude": 40.74771308973833,
+        "longitude": -73.97877709492026
+      },
+      {
+        "name": "Sarah Johnson",
+        "latitude": 40.752075100489364,
+        "longitude": -74.00084177004521
+      },
+      {
+        "name": "Michael Davis",
+        "latitude": 40.75618322676526,
+        "longitude": -73.98297512069813
+      },
+      {
+        "name": "Jennifer Lee",
+        "latitude": 40.7486873117376,
+        "longitude": -73.97001482081467
+      },
+      {
+        "name": "David Kim",
+        "latitude": 40.716347904455986,
+        "longitude": -73.98095627768114
+      },
+      {
+        "name": "Emily Chen",
+        "latitude": 40.72342484953164,
+        "longitude": -74.01171838412556
+      },
+      {
+        "name": "William Wang",
+        "latitude": 40.74083180050023,
+        "longitude": -74.00535973627026
+      }
+    ]
+  }
+  

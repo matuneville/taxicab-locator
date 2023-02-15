@@ -1,0 +1,32 @@
+{
+ "taxicabs": [
+  {
+   "name": "John Smith",
+   "distance": 0.8238008665967854
+  },
+  {
+   "name": "Michael Davis",
+   "distance": 1.1391259008548733
+  },
+  {
+   "name": "Sarah Johnson",
+   "distance": 1.1931829042160145
+  },
+  {
+   "name": "Jennifer Lee",
+   "distance": 1.5697054926924092
+  },
+  {
+   "name": "William Wang",
+   "distance": 1.5701191928632172
+  },
+  {
+   "name": "Emily Chen",
+   "distance": 3.25633705110464
+  },
+  {
+   "name": "David Kim",
+   "distance": 3.4481215635639435
+  }
+ ]
+}
