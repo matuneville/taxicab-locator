@@ -11,34 +11,34 @@ To begin with, I need the coordinates of some taxicabs in a specific area. I ask
      "longitude": -73.98848619172874 },
 "drivers": [
       { "name": "John Smith", "latitude": 40.74771308973833, "longitude": -73.97877709492026 },
-      ...
+      {...},
       { "name": "William Wang", "latitude": 40.74083180050023, "longitude": -74.00535973627026 }
     ]
   }
 ```
 
-Following, I got the data transfered into arrays and dictionaries in orden to apply the algorithms that calculate the geographic distance in kilometers between my coordinates and the taxis'.  
+Next, I transferred the data into arrays and dictionaries to apply algorithms that calculate the geographic distance in kilometers between my coordinates and the taxis'.
 
-After that, the calculated data is written into the output .JSON file, being uploaded in an ascending distance sort, so to know which is the closest driver.
+After that, the resulting data is written into the output JSON file and uploaded in ascending order of distance, so that I can easily determine which driver is closest to me.
 
 ```json
 {
  "taxicabs": [
   { "name": "John Smith", "distance": 0.8238008665967854 },
   { "name": "Michael Davis", "distance": 1.1391259008548733 },
-  ...
+  {...},
   { "name": "David Kim", "distance": 3.4481215635639435 }
  ]
 }
 ```
-This is how we can know how far away are the given taxis from where we are standing. Below you can see that the distances measured in Google Maps to some drivers are correctly calculated with the program.  
+This is how we can determine the distance between the taxis and our current location. Below, you can see that the distances measured in Google Maps match those calculated using the program.
 
-![map1]()
-![map2]()
+![map1](images/map1.png)
+![map2](images/map2.png)
 
 
 ## Haversine Algorithm 🌐
-The Haversine Formula allows you to determine the spherical distance between two points on a spheric surface given their longitudes and latitudes. Having converted the variables to radians, the Haversine Formula is applied:
+The Haversine Formula allows us to calculate the spherical distance between two points on a spherical surface, given their longitudes and latitudes. After converting the variables to radians and using trigonometric functions from the `math` library, we apply the Haversine Formula.
 
 ```python
   dlat = lat2 - lat1
