@@ -11,7 +11,7 @@ To begin with, I need the coordinates of some taxicabs in a specific area. I ask
      "longitude": -73.98848619172874 },
 "drivers": [
       { "name": "John Smith", "latitude": 40.74771308973833, "longitude": -73.97877709492026 },
-      {...},
+      {"..."},
       { "name": "William Wang", "latitude": 40.74083180050023, "longitude": -74.00535973627026 }
     ]
   }
@@ -26,7 +26,7 @@ After that, the resulting data is written into the output JSON file and uploaded
  "taxicabs": [
   { "name": "John Smith", "distance": 0.8238008665967854 },
   { "name": "Michael Davis", "distance": 1.1391259008548733 },
-  {...},
+  {"..."},
   { "name": "David Kim", "distance": 3.4481215635639435 }
  ]
 }
