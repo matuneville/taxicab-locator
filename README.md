@@ -31,7 +31,7 @@ After that, the resulting data is written into the output JSON file and uploaded
  ]
 }
 ```
-This is how we can determine the distance between the taxis and our current location. Below, you can see that the distances measured in Google Maps match those calculated using the program.
+This is how we can determine the distance between the taxis and our current location. Below, you can see that the distances measured in Google Maps match those calculated using the program. (Clarification: the measures in Google Maps are rounded by the first two decimals).
 
 ![map1](images/map1.png)
 ![map2](images/map2.png)
